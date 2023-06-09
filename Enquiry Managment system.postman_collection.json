@@ -1,0 +1,389 @@
+{
+	"info": {
+		"_postman_id": "2d4273cb-1e7d-4535-a5f7-822707039586",
+		"name": "Enquiry Managment system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/admin_list/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"admin_list",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 19:01:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "197"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Firstname\": \"sohan\",\n        \"Lastname\": \"rathore\",\n        \"Email\": \"vishnu@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"neeraj\",\n        \"Lastname\": \"patel\",\n        \"Email\": \"neeraj@gmail.com\",\n        \"Contact\": 9424444348\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/admin_data/2/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"admin_data",
+								"2",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 19:01:46 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "89"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Firstname\": \"neeraj\",\n    \"Lastname\": \"patel\",\n    \"Email\": \"neeraj@gmail.com\",\n    \"Contact\": 9424444348\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/user_data/3/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"user_data",
+								"3",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 19:02:36 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "90"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Firstname\": \"Rajeev\",\n    \"Lastname\": \"sharma\",\n    \"Email\": \"rajeev@gmail.com\",\n    \"Contact\": 1234567898\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/user_list/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"user_list",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 19:02:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "865"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Firstname\": \"Neeraj\",\n        \"Lastname\": \"Patel\",\n        \"Email\": \"neeraj@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"Vishnu\",\n        \"Lastname\": \"Patel\",\n        \"Email\": \"vishnu@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"Rajeev\",\n        \"Lastname\": \"sharma\",\n        \"Email\": \"rajeev@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"Arun \",\n        \"Lastname\": \"Sharma\",\n        \"Email\": \"arun@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"mohan\",\n        \"Lastname\": \"yadav\",\n        \"Email\": \"mohan@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"sanjay\",\n        \"Lastname\": \"singh\",\n        \"Email\": \"sanjay@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"jai\",\n        \"Lastname\": \"Patel\",\n        \"Email\": \"jai@gmail.com\",\n        \"Contact\": 1234565432\n    },\n    {\n        \"Firstname\": \"amit\",\n        \"Lastname\": \"patel\",\n        \"Email\": \"amit@gmail.com\",\n        \"Contact\": 1234567898\n    },\n    {\n        \"Firstname\": \"ravi\",\n        \"Lastname\": \"patel\",\n        \"Email\": \"ravi@gmail.com\",\n        \"Contact\": 9876543212\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/enquiry_list/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"enquiry_list",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 19:03:16 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "480"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Studentname\": \"Neeraj kumar\",\n        \"Email\": \"neeraj@gmail.com\",\n        \"Contact\": 1234567898,\n        \"Enquiry\": \"what coerces you offered for BE\"\n    },\n    {\n        \"Studentname\": \"Neeraj kumar\",\n        \"Email\": \"neeraj@gmail.com\",\n        \"Contact\": 1234567898,\n        \"Enquiry\": \"fess of CSE & ECE branch\"\n    },\n    {\n        \"Studentname\": \"Neeraj kumar\",\n        \"Email\": \"neeraj@gmail.com\",\n        \"Contact\": 1234567898,\n        \"Enquiry\": \"Fees for Backend technologies\"\n    },\n    {\n        \"Studentname\": \"Vishnu\",\n        \"Email\": \"vishnu@gmail.com\",\n        \"Contact\": 6789023456,\n        \"Enquiry\": \"Is College location out of bhopal\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/enquiry_data/2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"enquiry_data",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 19:03:52 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "122"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Studentname\": \"Neeraj kumar\",\n    \"Email\": \"neeraj@gmail.com\",\n    \"Contact\": 1234567898,\n    \"Enquiry\": \"what coerces you offered for BE\"\n}"
+				}
+			]
+		}
+	]
+}

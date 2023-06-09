@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Show All Queries:</h1>
+    <table border='1'>
+      <thead>
+          <tr>
+            <th>Id</th>
+            <th>Studentname</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Enquiry</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+    {% if key1 %}
+    <tbody>
+        {% for i in key1 %}
+          <tr>
+            <td>{{i.id}}</td>
+            <td>{{i.Studentname}}</td>
+            <td>{{i.Email}}</td>
+            <td>{{i.Contact}}</td>
+            <td>{{i.Enquiry}}</td>
+            <td>
+              <form action="{% url 'editpage' pk=i.id %}" method="post">
+                {% csrf_token %}
+                <input type="submit" value="Edit">
+              </form>
+            </td>
+            <td>
+              <form action="{% url 'delete' pk=i.id %}" method="post" name="Deleteform">
+                {% csrf_token %}
+                <input type="submit" value="Delete">
+              </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    {% endif %}
+    </table>
+    <form action="{% url 'home' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="logout">
+    </form>
+</body>
+</html>
